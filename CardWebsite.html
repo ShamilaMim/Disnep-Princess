@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Card</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oi&family=Reggae+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family: 'Oi', cursive;
+            font-family: 'Reggae One', cursive;
+        }
+        .main{
+            width:100%;
+            height:auto;
+            background-color: lightcyan;
+            border: 2px solid gray;
+            border-radius: 8px;
+            
+            
+        }
+        h1{
+            color:darkorange;
+            position: absolute;
+            margin: auto;
+            top:60px;
+            left:45%;
+            right: 50%;
+            font-size: 30pt;
+            text-shadow: 4px 4px #ff0000;
+            
+            
+        
+        }
+        .nav{
+            width:100%;
+            height:auto;
+            background-color: deepskyblue;
+            text-align: center;
+            
+        }
+        ul li{
+            display: inline-block;
+            margin:10px;
+            padding: 10px;
+            color: white;
+            
+        }
+        li:hover{
+            background-color: aquamarine;
+            box-shadow: 8px;
+        }
+        
+        .card{
+            width:20%;
+            height:auto;
+            margin:30px;
+            background-color: seashell;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            box-shadow: 2px 2px 15px black;
+            display: inline-block;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            
+            
+        }
+        .card:hover{
+            box-shadow: 2px 2px 25px black;
+            transition: 0.5s;
+        }
+        img{
+            width:100%;
+            height:200px;
+            background-color: white;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px; 
+        }
+        .details{
+            padding:6px;
+            text-align: justify;
+        }
+        
+        h2{
+            text-align: center;
+            color:darkmagenta;
+            
+        }
+        button{
+            margin-left:100px;
+            margin-top: 10px;
+            padding:10px;
+            border-radius: 8px;
+            border:2px solid gray;
+            background-color: lightcoral;
+            margin-bottom: 10px;
+            
+        }
+        button:hover{
+            box-shadow: 2px 2px 10px blue;
+            transition:0.5s;
+            
+            
+        }
+        .bt1{
+            width:90px;
+            position: relative;
+            margin:8px;
+        }
+        btn{
+            position:relative;
+        }
+    </style>
+</head>
+<body>
+  <div class="main">
+    <div>
+        <img src="Anime1.jpg" alt="">
+        <h1>Disnep Princess</h1>
+
+    </div>
+      
+      <div class="nav">
+        <ul>
+             <li>Home</li>
+             <li>My Cards</li>
+             <li>My Groups</li>
+             <li>All</li>
+             <li>Inbox</li>
+             <li>Contact</li>
+             <li>About</li>
+         </ul>
+         
+         <!....search bar...>
+         <div class="search">
+            <form action="#">
+               <input type="text" placeholder="search"       name="search">
+               <button class="bt1">Search</button>
+            </form>
+             
+         </div>
+        </div>
+     
+      <div class="box1">
+        
+         <div class="box2">
+            <div class="newsfeed">
+              <div class="card">
+                  <div class="image">
+                    <img src="merida.jpg" alt="">
+          
+                  </div>
+                  <div class="details">
+                <h2>Merida</h2>
+                 <p>Merida, now a free-spirited and fiery young woman who dislikes her princess duties.</p>
+          
+                  </div>
+                  <div class="btn1">
+                     <button>Read</button>
+          
+                  </div>
+       
+               </div>
+               <!.....card1.....>
+              <div class="card">
+                  <div class="image">
+                     <img src="Moana.jpg" alt="">
+          
+                  </div>
+                  <div class="details">
+                <h2>Moana</h2>
+                 <p>Moana, daughter of chief Tui, embarks on a journey to return the heart of goddess </p>
+          
+                  </div>
+                  <div class="btn">
+                     <button>Read</button>
+          
+                  </div>
+       
+               </div>
+               
+               <!.....card2.....>
+              <div class="card">
+                  <div class="image">
+                     <img src="Anna.jpg" alt="">
+          
+                  </div>
+                  <div class="details">
+                <h2>Anna</h2>
+                 <p>Moana, daughter of chief Tui, embarks on a journey to return the heart of goddess </p>
+          
+                  </div>
+                  <div class="btn1">
+                     <button>Read</button>
+          
+                  </div>
+       
+               </div>
+               
+               <!.....card3.....>
+              <div class="card">
+                  <div class="image">
+                     <img src="elsa.jpg" alt="">
+          
+                  </div>
+                  <div class="details">
+                <h2>Elsa</h2>
+                 <p>Elsa of Arendelle is a fictional character who appears in Walt Disney Animation.</p>
+          
+                  </div>
+                  <div class="btn1">
+                     <button>Read</button>
+          
+                  </div>
+       
+               </div>
+                <!.....card4.....>
+              <div class="card">
+                  <div class="image">
+                     <img src="rapunzel.jpg" alt="">
+          
+                  </div>
+                  <div class="details">
+                <h2>Rapunzel</h2>
+                 <p>Elsa of Arendelle is a fictional character who appears in Walt Disney Animation Studios.</p>
+          
+                  </div>
+                  <div class="btn1">
+                     <button>Read</button>
+          
+                  </div>
+       
+           </div>
+            <!.....card5.....>
+              <div class="card">
+                  <div class="image">
+                     <img src="jasmine.jpg" alt="">
+          
+                  </div>
+                  <div class="details">
+                <h2>Jasmine</h2>
+                 <p>Jasmine is a dreamer who loves her pet tiger, Rajah. She's free-spirited, confident, and kind.</p>
+          
+                  </div>
+                  <div class="btn1">
+                     <button>Read</button>
+          
+                  </div>
+       
+               </div>
+               <!.....card6.....>
+              <div class="card">
+                  <div class="image">
+                     <img src="Mulan.jpg" alt="">
+          
+                  </div>
+                  <div class="details">
+                <h2>Mulan</h2>
+                 <p>Mulan, aberrated, and unlike most previous female roles, is courageous and more self-reliant.</p>
+          
+                  </div>
+                  <div class="btn1">
+                     <button>Read</button>
+          
+                  </div>
+       
+               </div>
+               <!.....card8.....>
+              <div class="card">
+                  <div class="image">
+                     <img src="snowwhite.jpg" alt="">
+          
+                  </div>
+                  <div class="details">
+                <h2>Snow-White</h2>
+                 <p>Snow White sees the world in a simple, unguarded way. She expresses a purity and honesty in her presence.</p>
+          
+                  </div>
+                  <div class="btn1">
+                     <button>Read</button>
+          
+                  </div>
+       
+               </div>
+               
+               
+             
+         </div>
+          
+      </div>
+       
+   </div>
+  </div>
+    
+    
+</body>
+</html>
